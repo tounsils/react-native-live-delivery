@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+/*
 import {
   TextInput,
   StyleSheet,
@@ -7,6 +8,15 @@ import {
   Keyboard,
   TouchableHighlight
 } from "react-native";import MapView, { Polyline, Marker } from "react-native-maps";
+*/
+import {
+  TextInput,
+  StyleSheet,
+  Text,
+  View,
+  Keyboard,
+  TouchableHighlight
+} from "expo";import MapView, { Polyline, Marker } from "react-native-maps";
 import Constants from "./Constants";
 import MapConfig from "./MapConfig";
 import _ from "lodash";

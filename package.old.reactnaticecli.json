@@ -1,28 +1,17 @@
 {
-  "main": "node_modules/expo/AppEntry.js",
   "name": "Taxi",
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "expo start",
-    "eject": "expo eject",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
   "dependencies": {
     "@mapbox/polyline": "^1.0.0",
-    "expo": "^38.0.9",
-    "expo-asset": "~8.1.7",
-    "expo-constants": "~9.1.1",
-    "expo-font": "~8.2.1",
-    "expo-linking": "^1.0.1",
-    "expo-splash-screen": "~0.3.1",
-    "expo-status-bar": "^1.0.2",
-    "expo-web-browser": "~8.3.1",
     "haversine": "^1.1.1",
     "lodash": "^4.17.11",
     "react": "16.8.3",
+    "react-native": "^0.63.2",
     "react-native-geolocation-service": "^2.0.0",
     "react-native-maps": "^0.24.2",
     "socket.io-client": "^2.2.0"
@@ -32,8 +21,6 @@
     "@babel/runtime": "^7.4.3",
     "babel-jest": "^24.7.1",
     "jest": "^24.7.1",
-    "babel-preset-expo": "~8.1.0",
-    "jest-expo": "~38.0.0",
     "metro-react-native-babel-preset": "^0.53.1",
     "react-test-renderer": "16.8.3"
   },
