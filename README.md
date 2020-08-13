@@ -1,3 +1,8 @@
+
+[![GitHub release](https://img.shields.io/github/release/tounsils/react-native-live-delivery?color=blue)](https://github.com/tounsils/react-native-live-delivery/releases)
+[![GitHub stars](https://img.shields.io/github/stars/tounsils/react-native-live-delivery?color=yellow)](https://github.com/tounsils/react-native-live-delivery/stars)
+
+
 # react-native-live-delivery
 
 React native live delivery or track sample app 
