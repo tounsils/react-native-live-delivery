@@ -9,9 +9,11 @@ React native live delivery or track sample app
 
 # Start
 $ npm start
+
 http://localhost:8081/
 
 $ npm run ios
+
 $ npm start android
 
 # Git
